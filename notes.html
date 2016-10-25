@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html ng-app="noteApp">
+<head>
+    <title>Notes from developer</title>
+	<meta charset="utf-8" />
+    <link href="../Content/index.css" rel="stylesheet" />
+     <link href="Content/bootstrap.css" rel="stylesheet" />
+     <link href="Content/index.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/angular.js"></script>
+ </head>
+<body>
+
+
+    <div style="margin-left:20px;margin-right: 20px; background-color: #33ee44; font-size: 20px;"><a href="/webjettestfromdavidlizhonghuang/">Home</a></div>
+
+    <!--<main-content></main-content>-->
+
+    <div style="margin:20px; font-family:Arial;">
+        <h3>Documentation</h3>
+        <h4>Scope of the project</h4>
+        <p>This is a simple front end web application. Web site should be able to list the all movies as a list. When user clicks each image in the movie list, the selected movie details should be displayed. The web page should be responsive for multiple devices.  </p>
+
+        <h4>Development</h4>
+
+        <h4>Back end service</h4>
+        <p>Client provides two APIs' links we can use to retrieve and fetch all movie lists and each movie detail.</p>
+        <h4>Front end web page layout</h4>
+        <p>page should have a header to display logo, a content section to display main content, and a footer. </p>
+        <p>Movie list should be listed as a side menu located in the left side of the page via API calling one of the APIs. When user clicks each movie in the list, another API is used to retrieve the detail of the movie and display all details in the right side of the page. The layout should be responsive in multiple devices.</p>
+        <p>Click button to retrieve the lowest price of the movie</p>
+
+        <h4>AngularJS</h4>
+        <p>Angular JS 1.5 is the excellent front end framework we can use for SPA development. header, content, and footer in the page can be developed as components in landing page as example here </p>
+        <p>Due to the CORS that needs the data service layer to enable its CORS in server side to allow my web site access, we can not use angular js http call and even the jquery ajax call to return the data from APIs . However, we still can use POSTMAN in chrome to retrieve all data we need in both APIs and build fake routine here to mock the data interaction. </p>
+
+        <h4>Project constraints</h4>
+
+        <p>Oauth2 asp.net web APIs 2 for this testing does not enable their CORS to support this web site access. Therefore, I downloaded the data from POSTMAN and embedded them into the code as a dummy data for the SPA via the following links in POSTMAN</p>
+
+        <p><i>http: //webjetapitest.azurewebsites.net/api/cinemaworld/movie/cw2488496?x-access-token=sjd1Hfkjsdsm3802k</i></p>
+        <p><i>http: //webjetapitest.azurewebsites.net/api/cinemaworld/movies?x-access-token=sjd1HfkjU83ksd802k</i></p>
+
+        <p>APIs server side should add my web site url in the access allowed list, so angular http call here can be used.</p>
+
+        <h4>Summary</h4>
+
+        <p>Angular Js 1.5 allows us to develop a web site based on the component design pattern. Inter-component communication is important for this success. Jasmine unit test is necessary for angular component development.</p>
+
+    </div>
+
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.js"></script>
+    <script src="Scripts/notes.js"></script>
+
+</body>
+</html>

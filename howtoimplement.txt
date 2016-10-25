@@ -1,0 +1,1 @@
+This is develop under .net visual studio 2015 IDE, so please copy the code c: drive, and then open the index.html page in browser, a movie list is displayed, click on each movie, movie detail can be displayed in the right side.
