@@ -1,4 +1,4 @@
-# Angular Js 1.5 calls Web API 2
+s# Angular Js 1.5 calls Web API 2
 
 Web API: http://remote.dataservice.com
 Web api token: x-access=ewlkewfnf1f3
@@ -38,5 +38,5 @@ view:
         </div>
         
         
-Web api proxy return Task. so we need a machanism in angular js to notify when data is returning.
+Web api proxy returns Task, so we need a mechanism in angular js to notify when data is returning.
 
