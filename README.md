@@ -1,4 +1,4 @@
-s# Angular Js 1.5 calls Web API 2
+# Angular Js 1.5 calls Web API 2
 
 Web API: http://remote.dataservice.com
 Web api token: x-access=ewlkewfnf1f3
